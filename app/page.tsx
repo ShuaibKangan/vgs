@@ -58,7 +58,7 @@ export default function HomePage() {
             <h1 style={{ color: "#ffffff", fontSize: "2.5rem", marginBottom: "0.5rem" }}>
                 VideoGameSailers
             </h1>
-            <p style={{ color: "#508fe8", fontSize: "1.1rem" }}>
+            <p style={{ color: "#ff9900", fontSize: "1.1rem" }}>
                 We'll travel the seven seas to get you these hearty good deals.
             </p>
 
