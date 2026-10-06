@@ -25,7 +25,7 @@ export default function HomePage() {
     // defines the react component for homepage and allows next.js to render the page.
 
     const platforms = [
-        { name: "Xbox lame", image: "/xbox.jpg" },
+        { name: "Xbox Series Lame", image: "/xbox.jpg" },
         { name: "Lame-station", image: "/playstation.jpg" },
         { name: "Nin-Lame-o", image: "/nintendo.png" },
         { name: "PC (Personal Lame Computer)", image: "/pc.png" }
