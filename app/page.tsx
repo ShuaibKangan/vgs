@@ -25,10 +25,10 @@ export default function HomePage() {
     // defines the react component for homepage and allows next.js to render the page.
 
     const platforms = [
-        { name: "Xbox Series Lame", image: "/xbox.jpg" },
-        { name: "Lame-station", image: "/playstation.jpg" },
-        { name: "Nin-Lame-o", image: "/nintendo.png" },
-        { name: "PC (Personal Lame Computer)", image: "/pc.png" }
+        { key: "xbox", name: "Xbox Series Lame", image: "/xbox.jpg" },
+        { key: "playstation", name: "Lame-station", image: "/playstation.jpg" },
+        { key: "nintendo", name: "Nin-Lame-o", image: "/nintendo.png" },
+        { key: "pc", name: "PC (Personal Lame Computer)", image: "/pc.png" }
     ]; // Creates an array of objects that holds the details for all the consoles.
 
     // State variable to store store locations returned from Supabase
@@ -74,7 +74,7 @@ export default function HomePage() {
                     // loops through the platforms array and creates a card for each platform using the Link component 
                     // to navigate to the corresponding platform page.
 
-                    <Link key={platform.name} href={`/platform/${platform.name}`}>
+                    <Link key={platform.key} href={`/platform/${platform.key}`}>
                         {/* key gives react a unique identifier for each platform card, which helps with 
                         efficient rendering and updating of the UI. */}
 
