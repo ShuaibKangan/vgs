@@ -103,9 +103,9 @@ export default function HomePage() {
                 ))}
             </div>
 
-            <hr style={{ margin: "3rem 0", borderColor: "#334155", opacity: 0.5 }} />
+            <hr style={{ margin: "3rem 0", borderColor: "#ffbf5e", opacity: 0.5 }} />
 
-            <h2 style={{ color: "#ff9500" }}>Browse Inventory by Store Location</h2>
+            <h2 style={{ color: "#ffbf5e" }}>Browse Inventory by Store Location</h2>
 
             <div style={{ display: "flex", gap: "1rem", justifyContent: "center", marginTop: "1.5rem", flexWrap: "wrap" }}>
                 {/* Loops over stores fetched from Supabase and renders a link card for each store ID */}
