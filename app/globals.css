@@ -42,6 +42,6 @@ h1, h2, h3 {
 
 /* Horizontal divider line */
 hr {
-  border-color: #ff9900 !important; /* Vibrant blue accent line */
+  border-color: #ffbf5e !important; /* Vibrant orange accent line */
   opacity: 0.3;
 }
