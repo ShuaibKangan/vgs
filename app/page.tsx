@@ -25,10 +25,10 @@ export default function HomePage() {
     // defines the react component for homepage and allows next.js to render the page.
 
     const platforms = [
-        { name: "Xbox", image: "/xbox.jpg" },
-        { name: "Playstation", image: "/playstation.jpg" },
-        { name: "Nintendo", image: "/nintendo.png" },
-        { name: "PC", image: "/pc.png" }
+        { name: "Xbox lame", image: "/xbox.jpg" },
+        { name: "Lame-station", image: "/playstation.jpg" },
+        { name: "Nin-Lame-o", image: "/nintendo.png" },
+        { name: "PC (Personal Lame Computer)", image: "/pc.png" }
     ]; // Creates an array of objects that holds the details for all the consoles.
 
     // State variable to store store locations returned from Supabase
